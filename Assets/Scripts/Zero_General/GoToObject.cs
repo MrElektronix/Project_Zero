@@ -17,7 +17,7 @@ public class GoToObject : MonoBehaviour
     {
         DistanceToObject = Vector3.Distance(Player.transform.position, Other.transform.position);
         Debug.Log("Distance: " + DistanceToObject);
-       
+
     }
 
 }

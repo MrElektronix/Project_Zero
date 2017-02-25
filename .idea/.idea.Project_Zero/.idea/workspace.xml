@@ -12,15 +12,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GoToObject.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoToObject.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/GoToObject.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <marker date="1488061573897" expanded="true" signature="59:507" ph="{...}" />
-                <marker date="1488061573897" expanded="true" signature="249:307" ph="{...}" />
-                <marker date="1488061573897" expanded="true" signature="334:504" ph="{...}" />
+                <marker date="1488061634939" expanded="true" signature="59:500" ph="{...}" />
+                <marker date="1488061634939" expanded="true" signature="249:307" ph="{...}" />
+                <marker date="1488061634939" expanded="true" signature="334:497" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -29,12 +29,27 @@
       <file leaf-file-name="ZeroEnergy.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroEnergy.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
               <folding>
-                <marker date="1488061575552" expanded="true" signature="59:305" ph="{...}" />
-                <marker date="1488061575552" expanded="true" signature="179:259" ph="{...}" />
-                <marker date="1488061575552" expanded="true" signature="290:303" ph="{...}" />
+                <marker date="1488062019823" expanded="true" signature="59:305" ph="{...}" />
+                <marker date="1488062019823" expanded="true" signature="179:259" ph="{...}" />
+                <marker date="1488062019823" expanded="true" signature="290:303" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayText.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/DisplayText.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <marker date="1488062063732" expanded="true" signature="6:40" ph="..." />
+                <marker date="1488062063732" expanded="true" signature="82:374" ph="{...}" />
+                <marker date="1488062063732" expanded="true" signature="206:263" ph="{...}" />
+                <marker date="1488062063732" expanded="true" signature="291:371" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,8 +92,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroWalk.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroEnergy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Zero_General/GoToObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroEnergy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Zero_General/DisplayText.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +128,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project_Zero (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assets" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scripts" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zero_General" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project_Zero (1 project)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Assembly-CSharp" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -177,12 +223,12 @@
       <updated>1487892118180</updated>
       <workItem from="1487892120503" duration="1046000" />
       <workItem from="1487982621388" duration="1632000" />
-      <workItem from="1488061323501" duration="252000" />
+      <workItem from="1488061323501" duration="745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2930000" />
+    <option name="totallyTimeSpent" value="3423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,9 +280,9 @@
         <state relative-caret-position="361">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
           <folding>
-            <marker date="1488061573897" expanded="true" signature="59:507" ph="{...}" />
-            <marker date="1488061573897" expanded="true" signature="249:307" ph="{...}" />
-            <marker date="1488061573897" expanded="true" signature="334:504" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="59:500" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="249:307" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="334:497" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -246,9 +292,9 @@
         <state relative-caret-position="323">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
-            <marker date="1488061575552" expanded="true" signature="59:305" ph="{...}" />
-            <marker date="1488061575552" expanded="true" signature="179:259" ph="{...}" />
-            <marker date="1488061575552" expanded="true" signature="290:303" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="59:305" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="179:259" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="290:303" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -282,9 +328,9 @@
         <state relative-caret-position="475">
           <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
-            <marker date="1488061573897" expanded="true" signature="59:507" ph="{...}" />
-            <marker date="1488061573897" expanded="true" signature="249:307" ph="{...}" />
-            <marker date="1488061573897" expanded="true" signature="334:504" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="59:500" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="249:307" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="334:497" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -294,9 +340,9 @@
         <state relative-caret-position="361">
           <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <marker date="1488061575552" expanded="true" signature="59:305" ph="{...}" />
-            <marker date="1488061575552" expanded="true" signature="179:259" ph="{...}" />
-            <marker date="1488061575552" expanded="true" signature="290:303" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="59:305" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="179:259" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="290:303" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -325,6 +371,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/GoToObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1488061634939" expanded="true" signature="59:500" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="249:307" ph="{...}" />
+            <marker date="1488061634939" expanded="true" signature="334:497" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroEnergy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <marker date="1488062019823" expanded="true" signature="59:305" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="179:259" ph="{...}" />
+            <marker date="1488062019823" expanded="true" signature="290:303" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroWalk.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -349,26 +419,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/ZeroEnergy.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/DisplayText.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <marker date="1488061575552" expanded="true" signature="59:305" ph="{...}" />
-            <marker date="1488061575552" expanded="true" signature="179:259" ph="{...}" />
-            <marker date="1488061575552" expanded="true" signature="290:303" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Zero_General/GoToObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="7" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <marker date="1488061573897" expanded="true" signature="59:507" ph="{...}" />
-            <marker date="1488061573897" expanded="true" signature="249:307" ph="{...}" />
-            <marker date="1488061573897" expanded="true" signature="334:504" ph="{...}" />
+            <marker date="1488062063732" expanded="true" signature="6:40" ph="..." />
+            <marker date="1488062063732" expanded="true" signature="82:374" ph="{...}" />
+            <marker date="1488062063732" expanded="true" signature="206:263" ph="{...}" />
+            <marker date="1488062063732" expanded="true" signature="291:371" ph="{...}" />
           </folding>
         </state>
       </provider>
