@@ -5,7 +5,7 @@ public class GoToObject : MonoBehaviour
     public Transform Other;
     public GameObject Player;
     [HideInInspector] private ZeroMain _zeroMain;
-    private float _distance;
+    [HideInInspector] public float DistanceToObject;
 
 
     private void Start()
@@ -15,16 +15,9 @@ public class GoToObject : MonoBehaviour
 
     private void Update()
     {
-        _distance = Vector3.Distance(Player.transform.position, Other.transform.position);
-        //Debug.Log("Distance: " + _distance);
-        if (_distance >= 2 && _distance <= 6 && _zeroMain.ZeroWalk.MovingToObject == false)
-        {
-            _zeroMain.ZeroWalk.MovingToObject = true;
-        }
-        else
-        {
-            _zeroMain.ZeroWalk.MovingToObject = false;
-        }
+        DistanceToObject = Vector3.Distance(Player.transform.position, Other.transform.position);
+        Debug.Log("Distance: " + DistanceToObject);
+       
     }
 
 }

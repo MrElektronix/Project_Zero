@@ -14,11 +14,6 @@ public class ZeroEnergy : MonoBehaviour
 
     private void LateUpdate()
     {
-        Debug.Log("Energy: " + Energy);
-        if (_zeroMain.ZeroWalk.Active && Energy != 0)
-        {
-            _zeroMain.ZeroWalk.
-            Energy--;
-        }
+
     }
 }
