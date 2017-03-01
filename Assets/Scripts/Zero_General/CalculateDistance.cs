@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-public class GoToObject : MonoBehaviour
-{
+public class CalculateDistance : MonoBehaviour {
+
     public Transform Other;
     public GameObject Player;
     [HideInInspector] private ZeroMain _zeroMain;
@@ -15,9 +15,9 @@ public class GoToObject : MonoBehaviour
 
     private void Update()
     {
+
         DistanceToObject = Vector3.Distance(Player.transform.position, Other.transform.position);
-        Debug.Log("Distance: " + DistanceToObject);
+        //Debug.Log("Distance: " + DistanceToObject);
 
     }
-
 }
