@@ -5,17 +5,17 @@ public class DisplayText : MonoBehaviour
 {
 
     [SerializeField] private Text _energyText;
-    [HideInInspector] public ZeroMain ZeroMain;
+    [HideInInspector] private ClassControl _classControl;
 
     private void Start()
     {
-        ZeroMain = GetComponent<ZeroMain>();
+        _classControl = GetComponent<ClassControl>();
     }
 
 
     private void Update()
     {
-        _energyText.text = "Energy: " + ZeroMain.ZeroEnergy.Energy;
+        _energyText.text = "Energy: " + _classControl.Energy.TotalEnergy;
     }
 
 }

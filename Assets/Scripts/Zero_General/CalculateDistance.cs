@@ -4,13 +4,13 @@ public class CalculateDistance : MonoBehaviour {
 
     public Transform Other;
     public GameObject Player;
-    [HideInInspector] private ZeroMain _zeroMain;
+    [HideInInspector] private ClassControl _classControl;
     [HideInInspector] public float DistanceToObject;
 
 
     private void Start()
     {
-        _zeroMain = GetComponent<ZeroMain>();
+        _classControl = GetComponent<ClassControl>();
     }
 
     private void Update()

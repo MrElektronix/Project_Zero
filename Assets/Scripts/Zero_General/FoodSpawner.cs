@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class FoodSpawner : MonoBehaviour
-{
-    [HideInInspector] private ZeroMain _zeroMain;
+public class FoodSpawner : MonoBehaviour {
+
+    [HideInInspector] private ClassControl _classControl;
     [SerializeField] private GameObject _food;
     private readonly float _spawntime;
     private float _minimumrange;
@@ -11,7 +13,7 @@ public class FoodSpawner : MonoBehaviour
 
     private void Start()
     {
-        _zeroMain = GetComponent<ZeroMain>();
+        _classControl = GetComponent<ClassControl>();
         _minimumrange = -10.5f;
         _maximumrange = 10.5f;
     }
@@ -26,5 +28,4 @@ public class FoodSpawner : MonoBehaviour
         var spawnPointPosition = new Vector3(spawnPointX, spawnPointY, spawnPointZ);
         Instantiate(_food, spawnPointPosition, Quaternion.identity);
     }
-
 }

@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 
-public class ZeroMain : MonoBehaviour
+public class ClassControl : MonoBehaviour
 {
 
-    [HideInInspector] public ZeroEnergy ZeroEnergy;
+    [HideInInspector] public Energy Energy;
     [HideInInspector] public CalculateDistance CalculateDistance;
-    [HideInInspector] public ZeroWalk ZeroWalk;
+    [HideInInspector] public Walk Walk;
     [HideInInspector] public FoodSpawner FoodSpawner;
 
 	private void Awake ()
 	{
-	    ZeroEnergy = GetComponent<ZeroEnergy>();
+	    Energy = GetComponent<Energy>();
 	    CalculateDistance = GetComponent<CalculateDistance>();
-	    ZeroWalk = GetComponent<ZeroWalk>();
+	    Walk = GetComponent<Walk>();
 	    FoodSpawner = GetComponent<FoodSpawner>();
 	}
 
