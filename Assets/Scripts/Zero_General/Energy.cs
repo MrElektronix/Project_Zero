@@ -3,7 +3,7 @@
 public class Energy : MonoBehaviour
 {
 
-    [HideInInspector] public int TotalEnergy;
+    [HideInInspector] private int _totalEnergy;
     private int _previousEnergy;
     private float _calculateEnergy;
     [HideInInspector] private ClassControl _classControl;
@@ -11,8 +11,8 @@ public class Energy : MonoBehaviour
 
     private void Awake()
     {
-        TotalEnergy = 100;
-        _previousEnergy = TotalEnergy;
+        _totalEnergy = 100;
+        _previousEnergy = _totalEnergy;
     }
 
     private void Start()
@@ -21,17 +21,38 @@ public class Energy : MonoBehaviour
         //_calculateEnergy = (Mathf.Round(_zeroMain.CalculateDistance.DistanceToObject) * 5);
     }
 
+    public int TotalEnergy
+    {
+        get
+        {
+            return _totalEnergy;
+        }
+        set
+        {
+            if (_totalEnergy <= 0)
+            {
+                _totalEnergy = 0;
+            } else if (_totalEnergy > 100)
+            {
+                _totalEnergy = 100;
+            }
+            else
+            {
+                _totalEnergy = value;
+            }
+
+        }
+    }
+
     private void Update()
     {
-
-
-        if (TotalEnergy != _previousEnergy)
+        if (_totalEnergy != _previousEnergy)
         {
             _classControl.FoodSpawner.SpawnNewFood();
-            _previousEnergy = TotalEnergy;
+            _previousEnergy = _totalEnergy;
         }
 
-        if (TotalEnergy == 0)
+        if (_totalEnergy == 0)
         {
             _classControl.Walk.IsWalking = false;
         }

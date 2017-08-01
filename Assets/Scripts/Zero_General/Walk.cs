@@ -9,21 +9,24 @@ public class Walk : MonoBehaviour
 {
 
     [SerializeField] private Rigidbody _rigidbody;
-    [HideInInspector] private ClassControl _classControl;
     [SerializeField] private NavMeshAgent _agent;
+
+    [HideInInspector] private ClassControl _classControl;
+    [HideInInspector] public bool IsWalking;
+
     private float _timer;
     private float _cooldowntime;
-    private float _walkingSpeed;
-    [HideInInspector] public bool IsWalking;
+    private float _walkingSpeedY;
+
 
 
 	private void Start ()
 	{
-	    _walkingSpeed = 5f;
 	    _classControl = GetComponent<ClassControl>();
+
+	    _walkingSpeedY = 1.2f;
 	    _cooldowntime = 5f;
 	}
-
 
 
 	private void Update ()
@@ -36,10 +39,16 @@ public class Walk : MonoBehaviour
 	    if (_timer < Time.time)
         {
             _timer = Time.time + _cooldowntime;
-            var x = Random.Range(-7, 7);
-            var z = Random.Range(-7, 7);
-            _agent.SetDestination(new Vector3(x, 1.2f, z));
+            WalkRandomDirection();
             _classControl.Energy.TotalEnergy -= 50;
         }
 	}
+
+
+    private void WalkRandomDirection()
+    {
+        var x = Random.Range(-7, 7);
+        var z = Random.Range(-7, 7);
+        _agent.SetDestination(new Vector3(x, _walkingSpeedY, z));
+    }
 }

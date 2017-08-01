@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class DisplayText : MonoBehaviour
 {
 
-    [SerializeField] private Text _energyText;
+    [SerializeField] private Text _text;
     [HideInInspector] private ClassControl _classControl;
 
     private void Start()
@@ -13,9 +13,22 @@ public class DisplayText : MonoBehaviour
     }
 
 
+    public Text EnergyText
+    {
+        get
+        {
+            return _text;
+        }
+        set
+        {
+            _text = value;
+        }
+    }
+
     private void Update()
     {
-        _energyText.text = "Energy: " + _classControl.Energy.TotalEnergy;
+        //_energyText.text = "Energy: " + _classControl.Energy.TotalEnergy;
+
     }
 
 }
